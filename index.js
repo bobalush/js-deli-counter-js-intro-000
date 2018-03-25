@@ -22,6 +22,9 @@ function currentLine(line) {
 var i = 0;
 var results = "";
   while (i < line.length) {
+    if (i === line.length - 1){
+      results = `${i+1}. ${line[i]}`;
+    }
     results = `${i+1}. ${line[i]},`;
     i += 1;
   }
