@@ -12,7 +12,7 @@ function nowServing(katzDeliLine) {
   }
   else {
     var first = "";
-    first = katzDeliLine.slice(1);
+    first = katzDeliLine.slice(0,1);
     return `Currently serving ${first}`;
   }
 }
