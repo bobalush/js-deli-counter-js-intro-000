@@ -23,10 +23,10 @@ var i = 0;
 var results = "";
   while (i < line.length) {
     if (i === line.length - 1){
-      results = `${i+1}. ${line[i]}`;
+      results = result + `${i+1}. ${line[i]}`;
       return `The line is currently: ${results}`;
     }
-    results = `${i+1}. ${line[i]},`;
+    results = resutl + `${i+1}. ${line[i]},`;
     i += 1;
   }
 //  return `The line is currently: ${results}.`;
