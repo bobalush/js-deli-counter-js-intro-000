@@ -26,7 +26,7 @@ var results = "";
       results = results + `${i+1}. ${line[i]}`;
       return `The line is currently: ${results}`;
     }
-    results = results + `${i+1}. ${line[i]},`;
+    results = results + `${i+1}. ${line[i]}, `;
     i += 1;
   }
 //  return `The line is currently: ${results}.`;
