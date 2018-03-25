@@ -22,7 +22,7 @@ function currentLine(line) {
 var i = 0;
 var results = "";
   while (i < line.length) {
-    results = `${i+1}. ${line[i],}`;
+    results = `${i+1}. ${line[i]},`;
     i += 1;
   }
   return `The line is currently: ${results}.`;
